@@ -18,10 +18,10 @@ load_dotenv()
 
 # Get it from my.telegram.org
 API_ID = int(getenv("API_ID", "18641113"))
-API_HASH = getenv("bc5fea81e7bf9f3c0784a0a7d35f9c71")
+API_HASH = getenv("e3690294420e63d135342cf90e4abb3b")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("5956706662:AAF5PS_-GSp3LvvW0w3Pox96moa5DTamEqg")
+BOT_TOKEN = getenv("5620083318:AAHJdPnsaTGzfuVqKss5Ju2WsqGtrQ0WaDE")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority", None)
@@ -37,7 +37,7 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001818725213"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001821418353"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("Darlzzz music")
